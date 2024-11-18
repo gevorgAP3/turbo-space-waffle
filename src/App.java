@@ -1,7 +1,8 @@
-class App {
-  public static void main(String[] args) {
-    Book aBook = new Book();
-    System.out.println(aBook.pigLatin("hello"));
-    System.out.println(aBook.translateWord(""));
+public class App {
+  public static void main(String[] args) 
+  {
+    Book myBook = new Book("https://www.gutenberg.org/cache/epub/74699/pg74699.txt");
+    
+
   }
 }
